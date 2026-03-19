@@ -1,0 +1,2 @@
+# Place the 3,243 training images here, organized in subfolders by disease class
+# e.g. dataset/healthy/, dataset/leaf_blight/, dataset/powdery_mildew/, etc.

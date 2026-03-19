@@ -1,0 +1,16 @@
+name: Backend Deploy
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'backend/**'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy to Railway
+        # TODO (Akontoke): Add RAILWAY_TOKEN to GitHub repo secrets
+        run: echo "Configure Railway deploy here"

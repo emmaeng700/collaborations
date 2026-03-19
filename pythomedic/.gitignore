@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Android
+*.apk
+*.aab
+android/.gradle/
+android/local.properties
+android/app/build/
+
+# ML Models (too large for git — use Git LFS or share via Drive)
+*.pkl
+*.h5
+*.tflite
+*.pt
+
+# Firebase
+firebase-adminsdk.json
+google-services.json
+
+# IDE
+.idea/
+*.iml
+.DS_Store
